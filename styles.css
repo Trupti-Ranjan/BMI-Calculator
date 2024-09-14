@@ -17,7 +17,6 @@ body {
   );
 }
 .container {
-  /* border: 20px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,6 +49,7 @@ h1 {
 }
 
 .button {
+  font-size: 1rem;
   min-width: 130px;
   height: 40px;
   color: #fff;
@@ -83,4 +83,10 @@ h1 {
 
 h3{
     margin-bottom: 6px;
+}
+
+#result{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: -3px;
 }
