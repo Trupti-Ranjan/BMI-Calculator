@@ -1,91 +1,90 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
-  background: rgb(165, 32, 255);
-  background: linear-gradient(
-    331deg,
-    rgb(153, 0, 254) 0%,
-    rgb(192, 0, 0) 61%,
-    rgb(255, 149, 0) 100%
-  );
+    background: rgb(165, 32, 255);
+    background: linear-gradient(331deg,
+            rgb(153, 0, 254) 0%,
+            rgb(192, 0, 0) 61%,
+            rgb(255, 149, 0) 100%);
 }
+
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 form {
-  text-align: center;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.26);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5.2px);
-  -webkit-backdrop-filter: blur(5.2px);
-  border: 1px solid rgba(0, 0, 0, 0.21);
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: 1px solid rgba(0, 0, 0, 0.21);
 }
 
 h1 {
-  margin-bottom: 6px;
-  color: #fff;
+    margin-bottom: 6px;
+    color: #fff;
 }
 
-.input > input {
-  border-radius: 6px;
-  outline: none;
-  border: none;
-  padding: 10px;
-  margin: 10px 0px;
-  font-size: 1rem;
+.input>input {
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 1rem;
 }
 
 .button {
-  font-size: 1rem;
-  min-width: 130px;
-  height: 40px;
-  color: #fff;
-  padding: 5px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 5px;
-  border: none;
-  margin-top: 10px;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.447),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-  background: #fbd100;
+    font-size: 1rem;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.447),
+        7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    background: #fbd100;
 }
 
 .button:hover {
-  background-color: #ffdb25;
+    background-color: #ffdb25;
 }
 
 .button:active {
-  top: 2px;
+    top: 2px;
 }
 
 .guide {
-  color: #fff;
-  margin-top: 17px;
+    color: #fff;
+    margin-top: 17px;
 }
 
-h3{
+h3 {
     margin-bottom: 6px;
 }
 
-#result{
+#result {
     color: #fff;
     font-size: 1.5rem;
     margin-bottom: -3px;
